@@ -23,9 +23,9 @@
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="screenshots/screenshot1.png" width="30%" alt="Calculator Screen" />
-  <img src="screenshots/screenshot2.png" width="30%" alt="Team Management" /> 
-  <img src="screenshots/screenshot3.png" width="30%" alt="Photo Gallery" />
+  <img src="screenshots/img.png" width="30%" alt="Calculator Screen" />
+  <img src="screenshots/img2.png" width="30%" alt="Team Management" /> 
+  <img src="screenshots/img3.png" width="30%" alt="Photo Gallery" />
 </p>
 
 ---
