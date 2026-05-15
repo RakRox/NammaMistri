@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    INPUT FIELD BACKGROUND
+    ──────────────────────────────────────────────────────────────
+    Uses @color/ references instead of hardcoded hex values.
+
+    Light mode:  solid fill = #F5EDE8 (warm light gray)
+                 border     = #C9B8B0 (muted warm gray)
+
+    Dark mode:   solid fill = #3A3035 (dark purple-gray)
+                 border     = #6E6570 (medium purple-gray)
+
+    Android automatically picks the right values.
+    You do NOT need two versions of this drawable file.
+    ──────────────────────────────────────────────────────────────
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/input_background" />
+    <stroke
+        android:width="1.5dp"
+        android:color="@color/input_stroke" />
+    <corners android:radius="10dp" />
+</shape>

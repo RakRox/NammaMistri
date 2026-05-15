@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Namma Mistri</string>
+    <string name="tab_calculator">ಲೆಕ್ಕ (Calculator)</string>
+    <string name="tab_team">ತಂಡ (Team)</string>
+    <string name="tab_photos">ಫೋಟೋ (Photos)</string>
+    <string name="tab_rates">ಬೆಲೆ (Rates)</string>
+
+    <string name="hint_length">ಉದ್ದ - Length (feet)</string>
+    <string name="hint_height">ಎತ್ತರ - Height (feet)</string>
+    <string name="hint_thickness">ದಪ್ಪ - Thickness</string>
+    <string name="btn_calculate">ಲೆಕ್ಕ ಹಾಕು (Calculate)</string>
+    <string name="btn_clear">ಅಳಿಸು (Clear)</string>
+
+    <string name="bricks_result">Bricks Required</string>
+    <string name="cement_result">Cement Bags</string>
+    <string name="sand_result">Sand (Loads)</string>
+
+    <string name="worker_name_hint">Worker Name (ಹೆಸರು)</string>
+    <string name="wage_hint">Daily Wage ₹</string>
+    <string name="add_worker">Add Worker</string>
+    <string name="attendance">Attendance</string>
+    <string name="advance">Advance ₹</string>
+
+    <string name="material_name">Material Name</string>
+    <string name="unit">Unit</string>
+    <string name="price">Price ₹</string>
+    <string name="add_rate">Add Rate</string>
+
+    <string name="channel_id">namma_mistri_channel</string>
+</resources>

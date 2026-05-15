@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Color selector for bottom navigation icons and labels.
+    state_checked=true  → the tab that is currently open
+    default             → all other tabs
+-->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:color="@color/nav_selected" />
+    <item android:color="@color/nav_unselected" />
+</selector>

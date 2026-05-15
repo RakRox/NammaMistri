@@ -1,0 +1,40 @@
+# Project-wide Git ignore
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+*.iml
+
+# Android Studio / IntelliJ files
+*.ipr
+*.iws
+.idea/
+!.idea/codeStyles/
+!.idea/inspectionProfiles/
+
+# Build outputs
+**/build/
+*.apk
+*.aar
+*.ap_
+*.der
+*.keystore
+*.jks
+
+# Logs
+*.log
+
+# Local configuration
+local.properties
+
+# OS generated files
+Thumbs.db

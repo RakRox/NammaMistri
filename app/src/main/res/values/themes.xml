@@ -1,0 +1,98 @@
+<resources>
+
+    <!--
+    ══════════════════════════════════════════════════════════════
+     MAIN APP THEME
+     parent = DayNight.NoActionBar
+       • DayNight → automatically switches between light and dark
+       • NoActionBar → we use our own custom title bar
+    ══════════════════════════════════════════════════════════════
+    -->
+    <style name="Theme.NammaMistri" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- ── BRAND COLORS ──────────────────────────────────── -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/text_on_primary</item>
+        <item name="colorSecondary">@color/accent</item>
+        <item name="colorOnSecondary">@color/text_primary</item>
+
+        <!-- ── SURFACE / BACKGROUND ──────────────────────────── -->
+        <!--
+            android:colorBackground = the screen/window background color
+            colorSurface            = color of cards and sheets
+            colorOnSurface          = text/icon color ON top of surface
+        -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorSurface">@color/surface</item>
+        <item name="colorOnSurface">@color/text_on_surface</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="android:windowBackground">@color/background</item>
+
+        <!-- ── DEFAULT TEXT COLOR FOR ALL TEXTVIEWS ──────────── -->
+        <!--
+            This sets the default text color for every TextView
+            in the entire app — no need to set it on each view.
+        -->
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+
+        <!-- ── EDITTEXT GLOBAL STYLE ─────────────────────────── -->
+        <!--
+            android:editTextStyle applies to EVERY EditText in the app.
+            This is the professional way to fix text visibility once
+            for ALL input fields — instead of setting it on each one.
+        -->
+        <item name="android:editTextStyle">@style/Widget.NammaMistri.EditText</item>
+
+        <!-- ── STATUS BAR ─────────────────────────────────────── -->
+        <item name="android:statusBarColor">@color/primary_dark</item>
+
+    </style>
+
+    <!--
+    ══════════════════════════════════════════════════════════════
+     EDITTEXT STYLE
+     ─────────────────────────────────────────────────────────────
+     This style is applied to ALL EditTexts automatically.
+     In light mode  → @color/input_text = #1C1B1F (dark, visible)
+     In dark mode   → @color/input_text = #E6E1E5 (light, visible)
+     Android picks the right one from values/ or values-night/
+    ══════════════════════════════════════════════════════════════
+    -->
+    <style name="Widget.NammaMistri.EditText" parent="Widget.AppCompat.EditText">
+        <!-- Text the user types — MUST contrast with input_background -->
+        <item name="android:textColor">@color/input_text</item>
+        <!-- Placeholder text (e.g. "e.g. 20") -->
+        <item name="android:textColorHint">@color/input_hint</item>
+        <!-- The box background (rounded gray box) -->
+        <item name="android:background">@drawable/input_background</item>
+    </style>
+
+    <!--
+    ══════════════════════════════════════════════════════════════
+     MATERIAL BUTTON STYLE
+     Large, rounded, easy to tap at construction sites
+    ══════════════════════════════════════════════════════════════
+    -->
+    <style name="Widget.NammaMistri.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:minHeight">60dp</item>
+    </style>
+
+    <!--
+    ══════════════════════════════════════════════════════════════
+     CARD STYLE — used by CardViews throughout the app
+    ══════════════════════════════════════════════════════════════
+    -->
+    <style name="Widget.NammaMistri.Card" parent="Widget.MaterialComponents.CardView">
+        <item name="cardBackgroundColor">@color/card_background</item>
+        <item name="cardElevation">4dp</item>
+        <item name="cardCornerRadius">16dp</item>
+    </style>
+
+</resources>
